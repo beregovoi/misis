@@ -1,0 +1,31 @@
+@font-face { font-family: Delicious; src: url('RoomBold.ttf'); }
+html, body {font-family: Delicious;}
+
+a {
+	color: black;
+}
+
+h1 {
+	color: darkgreen;
+}
+
+.menu a{
+	text-decoration: none;
+}
+
+.menu a:hover{
+	color: darkgray;
+	font-family: monospace;
+	font-size: 18px;
+}
+
+.PRODUCT {
+	display: inline;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.itemphoto {
+	margin-right: 500px;
+	text-overflow: clip;
+}
